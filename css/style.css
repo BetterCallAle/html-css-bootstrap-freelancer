@@ -18,6 +18,14 @@
 img{
     max-width: 100%;
 }
+
+ul{
+    list-style-type: none;
+ }
+
+ .star{
+    font-size: 2rem;
+ }
 /* /COMMON */
 
  /* HEADER */
@@ -26,9 +34,17 @@ img{
     background-color: var(--header-bg);
     color: white;
  }
+ /* /HEADER */
 
- header ul{
-    list-style-type: none;
+ /* MAIN */
+ /* jumbotron */
+ #jumbotron{
+    background-color: var(--green-bg);
+    color: white;
  }
 
- /* /HEADER */
+ #jumbotron ul li{
+    font-size: 1rem;
+ }
+ /* /jumbotron */
+ /* /MAIN */
