@@ -20,4 +20,15 @@ img{
 }
 /* /COMMON */
 
+ /* HEADER */
+ header{
+    height: 75px;
+    background-color: var(--header-bg);
+    color: white;
+ }
 
+ header ul{
+    list-style-type: none;
+ }
+
+ /* /HEADER */
