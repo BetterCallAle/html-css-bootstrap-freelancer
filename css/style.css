@@ -11,6 +11,9 @@
     --box-black: #140F0F;
     --footer-bottom-bg: #3A546D;
     --font-color: #2C3E50;
+
+    /* dimensions */
+    --header-height: 75px;
 }
 /* /VAR */
 
@@ -26,7 +29,7 @@ ul{
 
  /* HEADER */
  header{
-    height: 75px;
+    height: var(--header-height);
     background-color: var(--header-bg);
     color: white;
  }
@@ -38,3 +41,18 @@ ul{
     color: white;
  }
  /* /MAIN */
+
+ /* FOOTER */
+footer{
+   color: white;
+}
+
+ .footer-top{
+   background-color: var(--header-bg);
+ }
+
+ .footer-bottom{
+   height: var(--header-height );
+   line-height: var(--header-height);
+   background-color: var(--footer-bottom-bg);
+ /* /FOOTER */
