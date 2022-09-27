@@ -37,10 +37,8 @@ ul{
  /* /HEADER */
 
  /* MAIN */
- /* jumbotron */
- #jumbotron{
+ .bg-green{
     background-color: var(--green-bg);
     color: white;
  }
- /* /jumbotron */
  /* /MAIN */
