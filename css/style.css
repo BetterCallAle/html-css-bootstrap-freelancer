@@ -1,6 +1,23 @@
+/* VAR */
+:root{
+    /* colors */
+    --header-bg: #2C3E50;
+    --green-bg: #1ABC9C;
+    --box-red: #BA4B63;
+    --box-light-blue: #1EA4B6;
+    --box-sky-blue: #1C83C1;
+    --box-blue: #0E38B5;
+    --box-beige: #CCB2A3;
+    --box-black: #140F0F;
+    --footer-bottom-bg: #3A546D;
+    --font-color: #2C3E50;
+}
+/* /VAR */
+
 /* COMMON */
 img{
     max-width: 100%;
 }
 /* /COMMON */
+
 
