@@ -23,9 +23,9 @@ ul{
     list-style-type: none;
  }
 
- .star{
+ /* .star{
     font-size: 2rem;
- }
+ } */
 /* /COMMON */
 
  /* HEADER */
@@ -41,10 +41,6 @@ ul{
  #jumbotron{
     background-color: var(--green-bg);
     color: white;
- }
-
- #jumbotron ul li{
-    font-size: 1rem;
  }
  /* /jumbotron */
  /* /MAIN */
