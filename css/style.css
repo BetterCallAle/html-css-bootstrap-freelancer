@@ -24,7 +24,55 @@ img{
 
 ul{
     list-style-type: none;
- }
+}
+
+.heading-star-white::before{
+   content: "";
+   display: inline-block;
+   height: 3px;
+   border-radius: 10px;
+   width: 10%;
+   background-color: white;
+   margin-right: 1rem;
+   vertical-align: super;
+}
+
+.heading-star-white::after{
+   content: "";
+   display: inline-block;
+   height: 3px;
+   border-radius: 10px;
+   width: 10%;
+   background-color: white;
+   margin-left: 1rem;
+   vertical-align: super;
+}
+
+.heading-star-black::before{
+   content: "";
+   display: inline-block;
+   height: 3px;
+   border-radius: 10px;
+   width: 10%;
+   background-color: black;
+   margin-right: 1rem;
+   vertical-align: super;
+}
+
+.heading-star-black::after{
+   content: "";
+   display: inline-block;
+   height: 3px;
+   border-radius: 10px;
+   width: 10%;
+   background-color: black;
+   margin-left: 1rem;
+   vertical-align: super;
+}
+
+.star{
+   font-size: 1.5rem;
+}
 /* /COMMON */
 
  /* HEADER */
