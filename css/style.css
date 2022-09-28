@@ -3,12 +3,6 @@
     /* colors */
     --header-bg: #2C3E50;
     --green-bg: #1ABC9C;
-    --box-red: #BA4B63;
-    --box-light-blue: #1EA4B6;
-    --box-sky-blue: #1C83C1;
-    --box-blue: #0E38B5;
-    --box-beige: #CCB2A3;
-    --box-black: #140F0F;
     --footer-bottom-bg: #3A546D;
     --font-color: #2C3E50;
 
@@ -24,6 +18,11 @@ img{
 
 ul{
     list-style-type: none;
+}
+
+a{
+   text-decoration: none;
+   color: inherit;
 }
 
 .heading-star-white::before{
@@ -81,12 +80,26 @@ ul{
     background-color: var(--header-bg);
     color: white;
  }
+
+ .ms_hamburger{
+   border: 1px solid white;
+   font-size: 1rem;
+   padding: .5rem 1rem;
+   border-radius: 10px;
+ }
  /* /HEADER */
 
  /* MAIN */
  .bg-green{
     background-color: var(--green-bg);
     color: white;
+ }
+
+ #contact input, #contact textarea{
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   border-radius: 0;
  }
  /* /MAIN */
 
@@ -96,11 +109,33 @@ footer{
 }
 
  .footer-top{
-   background-color: var(--header-bg);
+   background-color: var(--footer-bottom-bg);
  }
+
+ .footer-top h3{
+   font-size: 1rem;
+ }
+
+ .social i{
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   border: 1px solid white;
+   border-radius: 50%;
+   font-size: 1rem;
+   margin-right: .7rem;
+   margin-top: .3rem;
+ }
+
+ .link-green{
+   color: var(--green-bg);
+}
 
  .footer-bottom{
    height: var(--header-height );
    line-height: var(--header-height);
-   background-color: var(--footer-bottom-bg);
+   background-color: var(--header-bg);
+ }
  /* /FOOTER */
