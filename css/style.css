@@ -1,142 +1,147 @@
 /* VAR */
-:root{
-    /* colors */
-    --header-bg: #2C3E50;
-    --green-bg: #1ABC9C;
-    --footer-bottom-bg: #3A546D;
-    --font-color: #2C3E50;
+:root {
+  /* colors */
+  --header-bg: #2c3e50;
+  --green-bg: #1abc9c;
+  --footer-bottom-bg: #3a546d;
+  --font-color: #2c3e50;
 
-    /* dimensions */
-    --header-height: 75px;
+  /* dimensions */
+  --header-height: 75px;
 }
 /* /VAR */
 
 /* COMMON */
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
-a{
-   text-decoration: none;
-   color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.ms_font-black{
-   color: var(--font-color);
+.ms_font-black {
+  color: var(--font-color);
 }
 
-.heading-star-white::before{
-   content: "";
-   display: inline-block;
-   height: 3px;
-   border-radius: 10px;
-   width: 10%;
-   background-color: white;
-   margin-right: 1rem;
-   vertical-align: super;
+.heading-star-white::before {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  border-radius: 10px;
+  width: 10%;
+  background-color: white;
+  margin-right: .3rem;
+  vertical-align: super;
 }
 
-.heading-star-white::after{
-   content: "";
-   display: inline-block;
-   height: 3px;
-   border-radius: 10px;
-   width: 10%;
-   background-color: white;
-   margin-left: 1rem;
-   vertical-align: super;
+.heading-star-white::after {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  border-radius: 10px;
+  width: 10%;
+  background-color: white;
+  margin-left: .3rem;
+  vertical-align: super;
 }
 
-.heading-star-black::before{
-   content: "";
-   display: inline-block;
-   height: 3px;
-   border-radius: 10px;
-   width: 10%;
-   background-color: var(--font-color);
-   margin-right: 1rem;
-   vertical-align: super;
+.heading-star-black::before {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  border-radius: 10px;
+  width: 10%;
+  background-color: var(--font-color);
+  margin-right: .3rem;
+  vertical-align: super;
 }
 
-.heading-star-black::after{
-   content: "";
-   display: inline-block;
-   height: 3px;
-   border-radius: 10px;
-   width: 10%;
-   background-color: var(--font-color);
-   margin-left: 1rem;
-   vertical-align: super;
+.heading-star-black::after {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  border-radius: 10px;
+  width: 10%;
+  background-color: var(--font-color);
+  margin-left: .3rem;
+  vertical-align: super;
 }
 
-.star{
-   font-size: 1.5rem;
+.star {
+  font-size: 1.5rem;
 }
 /* /COMMON */
 
- /* HEADER */
-header{
-   padding: .8rem;
-   background-color: var(--header-bg);
-   color: white;
+/* HEADER */
+header {
+  padding: 0.8rem;
+  background-color: var(--header-bg);
+  color: white;
 }
 
-.ms_nav-link{
-   color: white;
+.ms_nav-link {
+  color: white;
 }
- /* /HEADER */
+/* /HEADER */
 
- /* MAIN */
- .bg-green{
-    background-color: var(--green-bg);
-    color: white;
- }
-
- #contact input, #contact textarea{
-   border-top: 0;
-   border-left: 0;
-   border-right: 0;
-   border-radius: 0;
- }
- /* /MAIN */
-
- /* FOOTER */
-footer{
-   color: white;
+/* MAIN */
+h1 {
+  font-size: 2.5rem;
 }
 
- .footer-top{
-   background-color: var(--footer-bottom-bg);
- }
-
- .footer-top h3{
-   font-size: 1rem;
- }
-
- .social i{
-   display: inline-block;
-   width: 40px;
-   height: 40px;
-   text-align: center;
-   line-height: 40px;
-   border: 1px solid white;
-   border-radius: 50%;
-   font-size: 1rem;
-   margin-right: .7rem;
-   margin-top: .3rem;
- }
-
- .link-green{
-   color: var(--green-bg);
+.bg-green {
+  background-color: var(--green-bg);
+  color: white;
 }
 
- .footer-bottom{
-   height: var(--header-height );
-   line-height: var(--header-height);
-   background-color: var(--header-bg);
- }
- /* /FOOTER */
+#contact input,
+#contact textarea {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+/* /MAIN */
+
+/* FOOTER */
+footer {
+  color: white;
+}
+
+.footer-top {
+  background-color: var(--footer-bottom-bg);
+}
+
+.footer-top h3 {
+  font-size: 1rem;
+}
+
+.social i {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1rem;
+  margin-right: 0.7rem;
+  margin-top: 0.3rem;
+}
+
+.link-green {
+  color: var(--green-bg);
+}
+
+.footer-bottom {
+  height: var(--header-height);
+  line-height: var(--header-height);
+  background-color: var(--header-bg);
+}
+/* /FOOTER */
