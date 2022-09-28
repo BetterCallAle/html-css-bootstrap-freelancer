@@ -107,6 +107,10 @@ h1 {
   border-right: 0;
   border-radius: 0;
 }
+
+.form-control:focus{
+   box-shadow: none;
+}
 /* /MAIN */
 
 /* FOOTER */
